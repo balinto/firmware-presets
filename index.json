@@ -2371,6 +2371,29 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/rc_link/side.txt",
+      "hash": "6dd83cc59e3a6d7a0aa1e315f061392c449a80ec9a7a1c8e94dc2d7ae16e4db9",
+      "title": "Side RC smoothing TBS Crossfire 50Hz",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "50Hz",
+        "TBS",
+        "Crossfire",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
+      ],
+      "author": "Balint Erdohegyi",
+      "priority": 10000000000
+    },
+    {
       "fullPath": "presets/4.3/rc_link/tbs/crossfire_150hz.txt",
       "hash": "e456a2010e44fdb60451376a459161753abb53b4786e138528e0e31434aed27e",
       "title": "TBS Crossfire 150Hz",

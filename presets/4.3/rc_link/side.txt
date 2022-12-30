@@ -1,0 +1,23 @@
+#$ TITLE: Side RC smoothing TBS Crossfire 50Hz
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 50Hz, TBS, Crossfire, Team Black Sheep, CRSF, rc, rx , link
+#$ AUTHOR: Balint Erdohegyi
+
+#$ INCLUDE: presets/4.3/rc_link/defaults.txt
+
+feature RX_SERIAL
+set serialrx_provider = CRSF
+
+# 50hz default settings in case option is not selected by the user
+set feedforward_averaging = OFF
+set feedforward_smooth_factor = 0
+set feedforward_jitter_factor = 12
+set feedforward_boost = 5
+
+#$ OPTION BEGIN (UNCHECKED): RC Smoothing
+    set rc_smoothing_auto_factor = 10
+    set rc_smoothing_setpoint_cutoff = 15
+#$ OPTION END
