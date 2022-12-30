@@ -1,0 +1,14 @@
+#$ TITLE: Side OSD - DJI WTFOS
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: analog
+#$ AUTHOR: Balint Erdohegyi
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+set osd_link_quality_pos = 2465
+set osd_tim_2_pos = 2485
+set osd_avg_cell_voltage_pos = 2475
+set osd_flip_arrow_pos = 2286
